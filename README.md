@@ -4,6 +4,7 @@
 - Python 3.10+
 - Windows PowerShell
 
+```
 ## Instalación
 por consola hacer lo siguiente:
 
@@ -22,12 +23,12 @@ usuario_venv\Scripts\activate
 4. Instalar kivy
 
 python -m pip install "kivy[full]"
+```
 
-
-
+```
 ## extensión usada
 SQLite de alexcvzz
-
+```
 ## Ejecución
 - Consola (Nivel 1):
 ```powershell
@@ -68,4 +69,5 @@ Eliminar tarea "informe de matematicas"
 
 Base de datos
 <img width="605" height="257" alt="Base de datos" src="https://github.com/user-attachments/assets/03da0232-8ff3-4dfc-b061-a9199836e8fa" />
+
 
