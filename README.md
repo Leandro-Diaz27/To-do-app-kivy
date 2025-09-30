@@ -5,14 +5,27 @@
 - Windows PowerShell
 
 ## Instalación
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install kivy
-```
+por consola hacer lo siguiente:
 
-## extension usada
+1. Instalar pip
+
+python -m pip install --upgrade pip setuptools virtualenv
+
+2. Crear entorno virtual
+
+python -m venv usuario_venv
+
+3. Activar el entorno 
+
+usuario_venv\Scripts\activate
+
+4. Instalar kivy
+
+python -m pip install "kivy[full]"
+
+
+
+## extensión usada
 SQLite de alexcvzz
 
 ## Ejecución
@@ -55,3 +68,4 @@ Eliminar tarea "informe de matematicas"
 
 Base de datos
 <img width="605" height="257" alt="Base de datos" src="https://github.com/user-attachments/assets/03da0232-8ff3-4dfc-b061-a9199836e8fa" />
+
